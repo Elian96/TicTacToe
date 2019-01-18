@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tictactoe.tictactoe">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".multi_player" />
+        <activity android:name=".StartPage" />
+        <activity android:name=".splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".single_player" />
+        <activity android:name=".highscores" />
+        <activity android:name=".multiplayerlevels" />
+        <activity android:name=".multi_player_easy" />
+        <activity android:name=".multi_player_hard" />
+        <activity android:name=".singleplayerlevels" />
+        <activity android:name=".single_player_easy" />
+        <activity android:name=".single_player_hard"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:exported="true"
+    style="@style/newbuttonstyle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="tictactoe.tictactoe.StartPage">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        style="@style/title"
+        android:text="TicTacToe"
+        android:fontFamily="monospace"
+        android:textSize="50sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="2dp"
+        android:freezesText="true"/>
+
+    <Button
+        android:id="@+id/singlePlayer"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/buttonshape"
+        android:fontFamily="monospace"
+        style="@style/p3"
+        android:text="SINGLEPLAYER"
+        android:textAlignment="center"
+        android:textColorHighlight="@android:color/holo_red_dark"
+        android:textSize="25dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <Button
+        android:id="@+id/multiPlayer"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:fontFamily="monospace"
+        android:text="MULTIPLAYER"
+        style="@style/p3"
+        android:background="@drawable/buttonshape"
+        android:textAlignment="center"
+        android:textColorHighlight="@android:color/holo_red_dark"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <Button
+        android:id="@+id/highscore"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:fontFamily="monospace"
+        android:text="HIGHSCORE"
+        android:background="@drawable/buttonshape"
+        android:textAlignment="center"
+        android:textColorHighlight="@android:color/holo_red_dark"
+        android:textSize="25dp"
+        style="@style/p3"
+        android:layout_marginBottom="150dp"
+        android:layout_marginTop="10dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+
+
+</LinearLayout>
+

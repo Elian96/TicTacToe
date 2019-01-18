@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    style="@style/newbuttonstyle"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <pl.droidsonroids.gif.GifTextView
+        android:id="@+id/gifTextView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/loading" />
+
+</LinearLayout>
